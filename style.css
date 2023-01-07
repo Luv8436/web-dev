@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading-container{
+    display: flex;
+    background-color: rgb(77, 23, 23);
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-image{
+    height: 40px;
+    width: 40px;
+}
+
+.heading{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "items-grid name-grid" "items-grid payment-grid" "items-grid payment-grid";
+    background-color: rgb(250, 242, 242);
+    padding: 20px 10px;
+}
+
+.items-container{
+    grid-area: items-grid;
+    background-color: rgb(245, 222, 222);
+    border: 2px;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 50px 30px;
+    flex-grow: 1;
+}
+
+.name-container{
+    grid-area: name-grid;
+    background-color: rgb(245, 222, 222);
+    border: 2px;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.payment-container{
+    grid-area: payment-grid;
+    background-color: rgb(245, 222, 222);
+    border: 2px;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.item-container{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 20px 10px;
+}
+.items-tag{
+    margin-bottom: 10px;
+}
+
+.item-quantity{
+    width: 10%;
+}
+.item-names{
+    width: 60%;
+}
+
+
+.item-price{
+    font-weight: bold;
+    width: 30%;
+}
+
+.item-name{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+.line-break{
+    display: block;
+    height: 2px;
+    margin: 10px;
+    padding: 0;
+    background-color: brown;
+}
