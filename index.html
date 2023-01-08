@@ -14,7 +14,7 @@
     </div>
     <div class="content">
         <div class="items-container">
-            <div class="items-tag">ITEMS</div>
+            <div class="container-tag">ITEMS</div>
             <div class="item-container">
                 <div class="item-quantity">
                     1X
@@ -49,8 +49,41 @@
                 <div class="item-price">$5.37</div>
             </div>
         </div>
-        <div class="name-container">Name</div>
-        <div class="payment-container">Payment</div>
+        <div class="name-container">
+            <div class="container-tag">
+                NAME
+            </div>
+            <div class="input-container">
+                <label class="input-label">Name for order</label>
+                <input class="input-tag" />
+            </div>
+        </div>
+        <div class="payment-container">
+            <div class="container-tag">
+                PAYMENT
+            </div>
+            <div class="input-container">
+                <label class="input-label">Card number</label>
+                <input class="input-tag" />
+            </div>
+            <div class="input-container">
+                <label class="input-label">CVV number</label>
+                <input class="input-tag" />
+            </div>
+        </div>
+        <div class="total-container-keys">
+            <div class="subtotal-key tag">Subtotal:</div>
+            <div class="tax-key tag">Tax:</div>
+            <div class="total-key tag">Total:</div>
+        </div>
+        <div class="total-container-values">
+            <div class="subtotal-value tag">$19.27</div>
+            <div class="tax-value tag">$0.96</div>
+            <div class="total-value tag">$20.23</div>
+        </div>
+        <div class="place-order-btn">
+            <input class="order-button" type="button" value="Place Order">
+        </div>
     </div>
 </body>
 </html>
